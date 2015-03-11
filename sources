@@ -7,8 +7,7 @@ gettext-0.12.1.tar.gz                   http://ftp.gnu.org/pub/gnu/gettext/gette
 gettext-0.14.6.tar.gz                   http://ftp.gnu.org/pub/gnu/gettext/gettext-0.14.6.tar.gz
 gettext-0.18.1.1.tar.gz                 http://ftp.gnu.org/pub/gnu/gettext/gettext-0.18.1.1.tar.gz
 gmp-5.1.3.tar.bz2                       http://ftp.gnu.org/pub/gnu/gmp/gmp-5.1.3.tar.bz2
-gnutls-2.12.3.tar.bz2                   http://ftp.gnu.org/gnu/gnutls/gnutls-2.12.3.tar.bz2
-gnutls-3.2.12.1.tar.bz2                 http://repository.timesys.com/buildsources/g/gnutls/gnutls-3.2.12.1/gnutls-3.2.12.1.tar.bz2
+gnutls-3.3.13.tar.gz                    ftp://ftp.gnutls.org/gcrypt/gnutls/v3.3/gnutls-3.3.13.tar.xz
 graphviz-2.30.1.tar.gz                  http://www.graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.30.1.tar.gz
 libev-4.15.tar.gz                       http://dist.schmorp.de/libev/libev-4.15.tar.gz
 libevent-1.4.13-stable.tar.gz           https://github.com/downloads/libevent/libevent/libevent-1.4.13-stable.tar.gz
