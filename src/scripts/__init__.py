@@ -51,7 +51,10 @@ def build():
             elif 'i386' in arch:
                 buildout_file = 'buildout-build-redhat-32bit.cfg'
             else:
-                buildout_file = 'buildout-build-redhat-64bit.cfg'
+                if version >= '8.0':
+                    buildout_file = 'buildout-build-redhat-8-64bit.cfg'
+                else:
+                    buildout_file = 'buildout-build-redhat-64bit.cfg'
         if dist_name in ['suse']:
             arch = execute_assert_success(["uname", "-i"]).get_stdout().lower()
             if 'ppc64le' in arch:
