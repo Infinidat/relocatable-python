@@ -52,7 +52,7 @@ def build():
             elif 'i386' in arch:
                 buildout_file = 'buildout-build-redhat-32bit.cfg'
             else:
-                if version >= '8.0':
+                if version.startswith('8'):
                     buildout_file = 'buildout-build-redhat-8-64bit.cfg'
                 else:
                     buildout_file = 'buildout-build-redhat-64bit.cfg'
